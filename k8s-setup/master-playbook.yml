@@ -111,7 +111,7 @@
     #   copy: src=/tmp/join dest=/tmp/join
 
     - name: Copy join command to local file
-      local_action: copy content="{{ join_command.stdout_lines[0] }}" dest="$HOME/join-command"
+      local_action: copy content="{{ join_command.stdout_lines[0] }}" dest="/home/uclouder/join-command"
       sudo: no
   handlers:
     - name: docker status
