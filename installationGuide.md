@@ -29,12 +29,12 @@ run `kubectl get svc -o wide | grep ingress`
 
 - take the port
 - Do a GET request to ip:port(ingress)/ (it will list all the cluster resources)
-  /namespace (it will list all namespaces)
-  /deployment (it will list all deployments)
-  /service (it will list all services)
+-                                     /namespace (it will list all namespaces)
+-                                     /deployment (it will list all deployments)
+-                                     /service (it will list all services)
 
-#Note: I am using serverless framework with openwhisk provider, also tested in IBM Blumix,
-#the code for both serverless functions are present in `~/Faas-Go/serverless/`
+**Note:** I am using serverless framework with openwhisk provider, also tested in IBM Blumix,
+the code for both serverless functions are present in `~/Faas-Go/serverless/`
 
 gRPC client-server demonstration code is present inside `~/Faas-Go/grpc/`,
 to perform gRPC demo run
