@@ -1,5 +1,4 @@
 #!/bin/bash 
-#### port forward 
 
  while [ 1 ]
     do 
