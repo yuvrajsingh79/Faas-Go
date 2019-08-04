@@ -30,7 +30,7 @@ perform port forwarding of grafana and print the url
 run `kubectl get svc -o wide | grep ingress`
 
 - take the port
-- Do a POST request to ip:port(ingress)/v1
+- Do a GET request to ip:port(ingress)/namespace/dev/triggers/trigger1
 
 gRPC client-server demonstration code is present inside `~/Faas-Go/grpc/`,
 to perform gRPC demo run
